@@ -28,7 +28,7 @@ void renderer_Init()
     camera.projection = CAMERA_PERSPECTIVE;
 }
 
-void render_Update()
+void renderer_Update()
 {
     UpdateCamera(&camera, CAMERA_ORBITAL);
 }

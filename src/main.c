@@ -28,7 +28,7 @@ int main(void)
 		float dt = GetFrameTime();
 		// UPDATE
 		simulation_Update(dt);
-        render_Update();
+        renderer_Update();
 
         BeginDrawing();
         ClearBackground(BLACK);

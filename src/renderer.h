@@ -4,6 +4,6 @@
 void renderer_Init();
 void renderer_RenderGUI();
 void renderer_Render3D();
-void render_Update();
+void renderer_Update();
 
 #endif
