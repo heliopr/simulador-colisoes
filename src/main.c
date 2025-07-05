@@ -7,8 +7,6 @@
 #include "simulation.h"
 #include "renderer.h"
 
-void DrawSphereBasic(Color color);
-
 int main(void)
 {
     const int screenWidth = 800;

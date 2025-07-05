@@ -27,7 +27,7 @@ void simulation_CreateBalls()
         ball.mass = ((float)GetRandomValue(50, 100))/10.0f;
         ball.radius = ball.mass/5.0f;
         ball.position = (Vector3){(float)GetRandomValue(-halfSize+ball.radius, halfSize-ball.radius), (float)GetRandomValue(-halfSize+ball.radius, halfSize-ball.radius), (float)GetRandomValue(-halfSize+ball.radius, halfSize-ball.radius)};
-        ball.velocity = (Vector3){GetRandomValue(-1, 1), GetRandomValue(-1, 1), GetRandomValue(-1, 1)};
+        ball.velocity = (Vector3){GetRandomValue(-100, 100), GetRandomValue(-100, 100), GetRandomValue(-100, 100)};
         ball.velocity = Vector3Scale(Vector3Normalize(ball.velocity), GetRandomValue(minVelocity, maxVelocity));
         ball.color = (Color){GetRandomValue(0, 255), GetRandomValue(0, 255), GetRandomValue(0, 255), 255};
         cvector_push_back(balls, ball);
